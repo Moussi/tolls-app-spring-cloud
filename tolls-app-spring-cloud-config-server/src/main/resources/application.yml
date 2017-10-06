@@ -7,6 +7,7 @@ spring:
       server:
         git:
           uri: https://github.com/Moussi/tolls-app-spring-cloud
-          search-paths: tolls-app-config/*
           #username: username
           #password: passwrd
+          search-paths:
+            - 'tolls-app-config/**'
