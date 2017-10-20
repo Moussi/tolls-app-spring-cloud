@@ -1,6 +1,8 @@
 ---
 server:
   port: 8888
+
+
 spring:
   cloud:
     config:
@@ -11,3 +13,9 @@ spring:
           #password: abc
         search-paths:
           - 'station*'
+security:
+  basic:
+    enabled: true
+  user:
+    password: azerty
+    name: user
