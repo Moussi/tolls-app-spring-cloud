@@ -1,4 +1,4 @@
-package com.moussi.tollsappspringcloudconfigserver;
+package com.moussi.tollsappspringcloudclient;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class TollsAppSpringCloudConfigServerApplicationTests {
+public class TollsAppSpringCloudClientApplicationTests {
 
 	@Test
 	public void contextLoads() {

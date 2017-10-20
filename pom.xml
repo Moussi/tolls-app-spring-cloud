@@ -20,6 +20,7 @@
 
     <modules>
         <module>tolls-app-spring-cloud-config-server</module>
+        <module>tolls-app-spring-cloud-client</module>
     </modules>
 
 
