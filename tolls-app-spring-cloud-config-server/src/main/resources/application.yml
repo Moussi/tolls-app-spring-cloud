@@ -5,9 +5,9 @@ spring:
   cloud:
     config:
       server:
-        git:
-          uri: https://github.com/Moussi/tolls-app-spring-cloud
-          #username: username
-          #password: passwrd
-          search-paths:
-            - 'tolls-app-config/**'
+       git:
+        uri: https://github.com/Moussi/toll-app-config # default
+          #username: abc
+          #password: abc
+        search-paths:
+          - 'station*'

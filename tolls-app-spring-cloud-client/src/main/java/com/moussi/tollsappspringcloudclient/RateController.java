@@ -15,10 +15,10 @@ public class RateController {
   @Value("${lanecount}")
   private String laneCount;
   @Value("${tollstart}")
-  private String tollStart;
+  private String tollstart;
 
   @RequestMapping("/rate")
   public String getRate(){
-    return rate + " " + laneCount + " "+ tollStart;
+    return rate + " " + laneCount + " " + tollstart;
   }
 }
