@@ -1,6 +1,6 @@
 spring:
   application:
-    name: s1rates
+    name: s2rates
   profiles:
     active: dev
   cloud:
